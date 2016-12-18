@@ -25,15 +25,27 @@ We hope you will enjoy the new version!
 
 ### Download
 * **librec-v2.0** is coming soon!
-   * Alpha version: check out the new branch (2.0.0-alpha) 
-      * Note that this update is not a stable release, and bugs and issues may exist here and there for now. This version is suitable for those who seek for the latest update and changes in LibRec 2.0. The stable version will be available by the end of December 2016. 
-   * Beta version by the middle of December 2016
+   * Alpha version: check out the new branch (2.0.0-alpha)
+   * Beta version: check out the new branch (2.0.0-beta)
    * Full version by the end of December 2016
 * **[librec-v1.3](http://www.librec.net/release/librec-v1.3.zip)**
 * **[librec-v1.2](http://www.librec.net/release/librec-v1.2.zip)**
 * **[librec-v1.1](http://www.librec.net/release/librec-v1.1.zip)**
 * **[librec-v1.0](http://www.librec.net/release/librec-v1.0.zip)**
 
+
+### Execution 
+You can run LibRec with configurations from command arguments:
+
+<pre>
+librec rec -exec -D rec.recommender.class=itemcluster -D rec.pgm.number=10 -D rec.iterator.maximum=20
+</pre>
+
+or from a configuration file:
+
+<pre>
+librec rec -exec -conf itemcluster-test.properties
+</pre>
 
 ### Code Snippet
 
